@@ -1,0 +1,30 @@
+.header {
+    height: 250px;
+    width: 100%;
+    background-color: #003580;
+}
+
+ul {
+    // list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+.header-logo{
+    font: 1em sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    float: left;
+}
+.herader-1-ites{
+    position: relative;
+    float: left;
+}
+
+.header-nav1{
+    list-style-type: none;
+
+}
