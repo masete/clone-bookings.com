@@ -25,6 +25,8 @@ li a{
     text-decoration: none;
     list-style-type: none;
     color: #fff;
+    text-align: center;
+    padding: 14px 16px;
 }
 .img-flag{
     border-radius: 10px;
@@ -39,9 +41,11 @@ li a{
 .herader-1-ites{
     position: relative;
     float: right;
+    // display: block;
+    // padding: 10px;
 }
 
 .header-nav1{
     list-style-type: none;
-
+    // display: block;
 }
