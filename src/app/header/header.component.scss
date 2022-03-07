@@ -21,6 +21,15 @@ ul {
 li {
     display: inline;
 }
+li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+.img-flag{
+    border-radius: 10px;
+    height: 20px;
+}
 .header-logo{
     font: 1em sans-serif;
     font-size: x-large;
