@@ -1,7 +1,15 @@
-.header {
-    height: 250px;
-    width: 100%;
+.container{
     background-color: #003580;
+    position: relative;
+    margin: 0px ;
+}
+.header {
+    display: block;
+    height: 250px;
+    padding: 30px;
+    align-content: center;
+    margin:0 auto; /* this will center the page */
+    width:990px; /*  use your width here */
 }
 
 ul {
@@ -21,7 +29,7 @@ li {
 }
 .herader-1-ites{
     position: relative;
-    float: left;
+    float: right;
 }
 
 .header-nav1{
