@@ -14,6 +14,7 @@ import { CurrencyComponent } from './currency/currency.component';
 import { LanguageComponent } from './language/language.component';
 import { CustomerServiceComponent } from './customer-service/customer-service.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
     CurrencyComponent,
     LanguageComponent,
     CustomerServiceComponent,
-    NoPageFoundComponent
+    NoPageFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

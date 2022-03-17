@@ -1,5 +1,6 @@
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +12,8 @@ import { CustomerServiceComponent } from './customer-service/customer-service.co
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   {path:'header',component: HeaderComponent},
   {path:'footer',component: FooterComponent},
   {path:'list-property',component: ListPropertyComponent},
