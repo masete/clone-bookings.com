@@ -13,6 +13,7 @@ import { ListPropertyComponent } from './list-property/list-property.component';
 import { CurrencyComponent } from './currency/currency.component';
 import { LanguageComponent } from './language/language.component';
 import { CustomerServiceComponent } from './customer-service/customer-service.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CustomerServiceComponent } from './customer-service/customer-service.co
     ListPropertyComponent,
     CurrencyComponent,
     LanguageComponent,
-    CustomerServiceComponent
+    CustomerServiceComponent,
+    NoPageFoundComponent
   ],
   imports: [
     BrowserModule,
